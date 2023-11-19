@@ -79,20 +79,23 @@
   .bg-gradient{
     @apply  bg-gradient-to-r from-[#6A39FE] to-[#BEA1FF];
   }
+  .text-gradient{
+    @apply bg-gradient-to-r from-[#6735FE] to-[#B18FFE] bg-clip-text text-transparent
+  }
 }
 
 
 .nav-links:nth-child(2){
-  margin-left:15px;
+  margin-left:40px;
 }
 .nav-links:nth-child(3){
-  margin-left:35px;
+  margin-left:60px;
 }
 .nav-links:nth-child(4){
-  margin-left:70px;
+  margin-left:80px;
 }
 .nav-links:nth-child(5){
-  margin-left:110px;
+  margin-left:115px;
 }
 .nav-links:nth-child(6){
   margin-left:180px;
@@ -114,4 +117,15 @@
   .nav-links:nth-child(6) {
     margin-left: 0px;
   }
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  background:transparent;
 }
