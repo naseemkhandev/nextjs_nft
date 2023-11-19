@@ -66,10 +66,20 @@ module.exports = {
 					from: { height: "var(--radix-accordion-content-height)" },
 					to: { height: 0 },
 				},
+				"slide-up": {
+					"0%, 100%": { transform: "translateY(-100%)" },
+					"50%": { transform: "translateY(0)" },
+				},
+				"slide-left": {
+					"0%, 100%": { transform: "translateX(-50%)" },
+					"50%": { transform: "translateX(0)" },
+				},
 			},
 			animation: {
 				"accordion-down": "accordion-down 0.2s ease-out",
 				"accordion-up": "accordion-up 0.2s ease-out",
+				"slide-up": "slide-up 6s linear infinite",
+				"slide-left": "slide-left 6s linear infinite",
 			},
 		},
 	},

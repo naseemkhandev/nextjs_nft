@@ -21,7 +21,7 @@ const CommonButton = ({
 		>
 			<span
 				className={cn(
-					"relative overflow-hidden bg-gradient w-full h-full py-2 px-4 cursor-pointer rounded-md font-semibold text-[.7rem] tracking-wider before:bg-gradient-to-r before:from-transparent before:via-white/60 before:to-transparent before:h-full before:w-8 before:absolute before:-left-10 hover:before:left-full before:transition-all before:duration-1000 dark:text-white before:top-0",
+					"flex items-center justify-center relative overflow-hidden bg-gradient w-full h-full px-4 cursor-pointer rounded-md font-semibold text-[.8rem] tracking-wider before:bg-gradient-to-r before:from-transparent before:via-white/50 before:to-transparent before:h-full before:w-8 before:absolute before:-left-10 hover:before:left-full before:transition-all before:duration-1000 dark:text-white before:top-0",
 					textClasses
 				)}
 			>
